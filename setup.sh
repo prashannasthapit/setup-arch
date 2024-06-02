@@ -1,7 +1,5 @@
 #!/bin/bash
-pacman -Syu
-pacman -S --noconfirm gnome firefox git base-devel xmlsec fuse2 icu iproute2 libdnet libmspack libsigc++ libxcrypt libcrypt.so libxss lsb-release procps-ng uriparser gdk-pixbuf-xlib chrpath doxygen gtkmm3 libxtst python rpcsvc-proto netctl cunit
-systemctl enable gdm.service
+pacman -S --noconfirm base-devel xmlsec fuse2 icu iproute2 libdnet libmspack libsigc++ libxcrypt libcrypt.so libxss lsb-release procps-ng uriparser gdk-pixbuf-xlib chrpath doxygen gtkmm3 libxtst python rpcsvc-proto netctl cunit
 
 # open-vm-tools
 git clone https://github.com/vmware/open-vm-tools.git
